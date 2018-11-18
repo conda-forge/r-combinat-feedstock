@@ -14,9 +14,9 @@ source:
   sha256: 1513cf6b6ed74865bfdd9f8ca58feae12b62f38965d1a32c6130bef810ca30c1
 
 build:
+  noarch: generic
   merge_build_host: True  # [win]
-  number: 1
-  skip: true  # [win32]
+  number: 1001
   rpaths:
     - lib/R/lib/
     - lib/
@@ -39,8 +39,7 @@ about:
   license: GPL-2
   summary: routines for combinatorics
   license_family: GPL2
-  license_file: '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-2'  # [unix]
-  license_file: '{{ environ["PREFIX"] }}\R\share\licenses\GPL-2'  # [win]
+  license_file: '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-2'
 
 extra:
   recipe-maintainers:
