@@ -1,11 +1,11 @@
-About r-combinat
-================
+About r-combinat-feedstock
+==========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-combinat-feedstock/blob/main/LICENSE.txt)
 
 Home: https://CRAN.R-project.org/package=combinat
 
 Package license: GPL-2.0-only
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-combinat-feedstock/blob/main/LICENSE.txt)
 
 Summary: routines for combinatorics
 
